@@ -7,4 +7,11 @@
   --color-grey-two: #a7a8a9;
   --color-grey-three: #888b8d;
   --color-grey-four: #53565a;
+
+  --font-color: #141414;
+}
+
+body {
+  background-color: var(--color-white);
+  color: var(--color-black);
 }

@@ -1,0 +1,6 @@
+.vehicleTableHeader {
+  display: flex;
+  margin: var(--spacing-normal) 0;
+  padding: var(--spacing-normal);
+  justify-content: space-between;
+}

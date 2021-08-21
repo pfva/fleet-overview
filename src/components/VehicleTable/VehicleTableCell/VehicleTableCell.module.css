@@ -1,0 +1,4 @@
+.vehicleTableCell {
+  flex: 1 1 calc(100% / 6);
+  text-align: left;
+}

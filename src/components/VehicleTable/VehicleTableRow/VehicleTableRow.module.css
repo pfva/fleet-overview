@@ -1,0 +1,7 @@
+.vehicleTableRow {
+  display: flex;
+  background: var(--color-white);
+  margin: var(--spacing-normal) 0;
+  padding: var(--spacing-normal);
+  justify-content: space-between;
+}

@@ -1,0 +1,13 @@
+.header {
+  height: 20vh;
+  margin: var(--spacing-normal);
+}
+
+.title {
+  margin-top: var(--spacing-extra-large);
+  font-size: var(--font-size-title);
+}
+
+.infoText {
+  color: var(--color-grey-three);
+}

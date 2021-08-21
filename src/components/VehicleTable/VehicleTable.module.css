@@ -1,0 +1,4 @@
+.vehicleTable {
+  background-color: var(--color-grey-one);
+  padding: var(--spacing-normal);
+}
