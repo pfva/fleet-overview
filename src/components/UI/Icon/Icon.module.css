@@ -1,0 +1,11 @@
+.dot {
+  position: relative;
+  top: 6px;
+  display: inline-block;
+  height: var(--font-size-extra-small);
+  width: var(--font-size-extra-small);
+  margin-right: var(--font-size-small);
+  border-radius: 50%;
+  background-color: var(--color-active);
+  box-shadow: 0 0 5px var(--color-active);
+}

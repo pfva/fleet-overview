@@ -1,5 +1,5 @@
 import './App.css';
-import Header from './components/UI/Header';
+import Header from './components/UI/Header/Header';
 import VehicleTable from './components/VehicleTable/VehicleTable';
 import vehicles from './data/vehicles.json';
 

@@ -6,12 +6,12 @@ const VehicleTableRow = ({ vehicle }) => {
 
   return (
     <div className={styles.vehicleTableRow}>
-      <VehicleTableCell type={id} />
-      <VehicleTableCell type={name} />
-      <VehicleTableCell type={driver} />
-      <VehicleTableCell type={status} />
-      <VehicleTableCell type={fuelType} />
-      <VehicleTableCell type={equipments} />
+      <VehicleTableCell content={{ type: 'id', data: id }} />
+      <VehicleTableCell content={{ type: 'name', data: name }} />
+      <VehicleTableCell content={{ type: 'driver', data: driver }} />
+      <VehicleTableCell content={{ type: 'status', data: status }} />
+      <VehicleTableCell content={{ type: 'fuelType', data: fuelType }} />
+      <VehicleTableCell content={{ type: 'equipments', data: equipments }} />
     </div>
   );
 };

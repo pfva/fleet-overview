@@ -4,12 +4,12 @@ import styles from './VehicleTableHeader.module.css';
 const VehicleTableHeader = () => {
   return (
     <div className={styles.vehicleTableHeader}>
-      <VehicleTableCell type='id' />
-      <VehicleTableCell type='name' />
-      <VehicleTableCell type='driver' />
-      <VehicleTableCell type='status' />
-      <VehicleTableCell type='fuelType' />
-      <VehicleTableCell type='equipments' />
+      <VehicleTableCell content={{ data: 'id' }} />
+      <VehicleTableCell content={{ data: 'name' }} />
+      <VehicleTableCell content={{ data: 'driver' }} />
+      <VehicleTableCell content={{ data: 'status' }} />
+      <VehicleTableCell content={{ data: 'fuelType' }} />
+      <VehicleTableCell content={{ data: 'equipments' }} />
     </div>
   );
 };
