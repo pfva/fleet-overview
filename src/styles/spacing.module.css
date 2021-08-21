@@ -1,0 +1,7 @@
+:root {
+  --spacing-extra-small: 0.25rem; /* 4px */
+  --spacing-small: 0.5rem; /* 8px */
+  --spacing-normal: 1rem; /* 16px */
+  --spacing-large: 1.5rem; /* 24px */
+  --spacing-extra-large: 2rem; /* 32px */
+}
