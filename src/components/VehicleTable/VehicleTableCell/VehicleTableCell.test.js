@@ -44,6 +44,13 @@ describe('VehicleTableCell', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('renders no equipment name if the equipments array contains no values', () => {
+    const mockedEquipments = { type: 'equipments', data: [] };
+    render(<VehicleTableCell content={mockedEquipments} />);
+    const equipment = screen.queryByTestId(/VehicleEquipments-wrapper/i);
+    expect(equipment).toBeInTheDocument();
+  });
+
   it('renders the correct equipment name if the equipments array contains one value', () => {
     const mockedEquipments = { type: 'equipments', data: [2] };
     render(<VehicleTableCell content={mockedEquipments} />);

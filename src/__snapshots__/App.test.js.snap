@@ -91,6 +91,7 @@ exports[`App renders without crashing 1`] = `
       </p>
       <div
         className="vehicleEquipments"
+        data-testid="VehicleEquipments-wrapper"
       >
         <p
           className="vehicleTableCell"
@@ -140,6 +141,7 @@ exports[`App renders without crashing 1`] = `
       </p>
       <div
         className="vehicleEquipments"
+        data-testid="VehicleEquipments-wrapper"
       >
         <p
           className="vehicleTableCell"
@@ -184,6 +186,7 @@ exports[`App renders without crashing 1`] = `
       </p>
       <div
         className="vehicleEquipments"
+        data-testid="VehicleEquipments-wrapper"
       >
         <p
           className="vehicleTableCell"
@@ -222,6 +225,7 @@ exports[`App renders without crashing 1`] = `
       </p>
       <div
         className="vehicleEquipments"
+        data-testid="VehicleEquipments-wrapper"
       />
     </div>
     <div
@@ -260,6 +264,7 @@ exports[`App renders without crashing 1`] = `
       </p>
       <div
         className="vehicleEquipments"
+        data-testid="VehicleEquipments-wrapper"
       >
         <p
           className="vehicleTableCell"
@@ -309,6 +314,7 @@ exports[`App renders without crashing 1`] = `
       </p>
       <div
         className="vehicleEquipments"
+        data-testid="VehicleEquipments-wrapper"
       >
         <p
           className="vehicleTableCell"
@@ -353,6 +359,7 @@ exports[`App renders without crashing 1`] = `
       </p>
       <div
         className="vehicleEquipments"
+        data-testid="VehicleEquipments-wrapper"
       />
     </div>
     <div
@@ -391,6 +398,7 @@ exports[`App renders without crashing 1`] = `
       </p>
       <div
         className="vehicleEquipments"
+        data-testid="VehicleEquipments-wrapper"
       >
         <p
           className="vehicleTableCell"
@@ -435,6 +443,7 @@ exports[`App renders without crashing 1`] = `
       </p>
       <div
         className="vehicleEquipments"
+        data-testid="VehicleEquipments-wrapper"
       />
     </div>
     <div
@@ -473,6 +482,7 @@ exports[`App renders without crashing 1`] = `
       </p>
       <div
         className="vehicleEquipments"
+        data-testid="VehicleEquipments-wrapper"
       >
         <p
           className="vehicleTableCell"
@@ -511,6 +521,7 @@ exports[`App renders without crashing 1`] = `
       </p>
       <div
         className="vehicleEquipments"
+        data-testid="VehicleEquipments-wrapper"
       >
         <p
           className="vehicleTableCell"
@@ -555,6 +566,7 @@ exports[`App renders without crashing 1`] = `
       </p>
       <div
         className="vehicleEquipments"
+        data-testid="VehicleEquipments-wrapper"
       />
     </div>
     <div
@@ -593,6 +605,7 @@ exports[`App renders without crashing 1`] = `
       </p>
       <div
         className="vehicleEquipments"
+        data-testid="VehicleEquipments-wrapper"
       >
         <p
           className="vehicleTableCell"
@@ -675,6 +688,7 @@ exports[`App renders without crashing 1`] = `
       </p>
       <div
         className="vehicleEquipments"
+        data-testid="VehicleEquipments-wrapper"
       >
         <p
           className="vehicleTableCell"

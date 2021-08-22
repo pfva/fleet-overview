@@ -74,6 +74,7 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
     </p>
     <div
       className="vehicleEquipments"
+      data-testid="VehicleEquipments-wrapper"
     >
       <p
         className="vehicleTableCell"
@@ -123,6 +124,7 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
     </p>
     <div
       className="vehicleEquipments"
+      data-testid="VehicleEquipments-wrapper"
     >
       <p
         className="vehicleTableCell"
@@ -167,6 +169,7 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
     </p>
     <div
       className="vehicleEquipments"
+      data-testid="VehicleEquipments-wrapper"
     >
       <p
         className="vehicleTableCell"

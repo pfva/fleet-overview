@@ -13,9 +13,16 @@ const VehicleTableCell = ({ content: { type, data } }) => {
     });
 
     return (
-      <div className={styles.vehicleEquipments}>
+      <div
+        className={styles.vehicleEquipments}
+        data-testid='VehicleEquipments-wrapper'
+      >
         {vehicleEquipments.map(equipmentName => {
-          return <p className={styles.vehicleTableCell} key={equipmentName}>{equipmentName}</p>;
+          return (
+            <p className={styles.vehicleTableCell} key={equipmentName}>
+              {equipmentName}
+            </p>
+          );
         })}
       </div>
     );
