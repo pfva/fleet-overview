@@ -9,3 +9,9 @@
   background-color: var(--color-active);
   box-shadow: 0 0 5px var(--color-active);
 }
+
+@media screen and (max-width: 425px) {
+  .dot {
+    margin-right: var(--font-size-extra-small);
+  }
+}
