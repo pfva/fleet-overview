@@ -21,6 +21,7 @@ exports[`VehicleTableRow renders without crashing 1`] = `
   </p>
   <div
     className="vehicleTableCell iconWrapper"
+    onClick={[Function]}
   >
     <span
       className="dot"

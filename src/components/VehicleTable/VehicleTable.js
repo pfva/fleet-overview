@@ -1,12 +1,16 @@
+import { useContext } from 'react';
+import VehicleContext from '../../store/vehicle-context';
 import VehicleTableHeader from './VehicleTableHeader/VehicleTableHeader';
 import VehicleTableRow from './VehicleTableRow/VehicleTableRow';
 import styles from './VehicleTable.module.css';
 
-const VehicleTable = ({ vehicles }) => {
+const VehicleTable = () => {
+  const vehicleContext = useContext(VehicleContext);
+
   return (
     <div className={styles.vehicleTable}>
       <VehicleTableHeader />
-      {vehicles.map(vehicle => {
+      {vehicleContext.vehicles.map(vehicle => {
         return <VehicleTableRow key={vehicle.id} vehicle={vehicle} />;
       })}
     </div>

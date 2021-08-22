@@ -1,8 +1,8 @@
-import Icon from '../../UI/Icon/Icon';
+import VehicleStatus from './VehicleStatus/VehicleStatus';
 import styles from './VehicleTableCell.module.css';
 import equipments from '../../../data/equipments.json';
 
-const VehicleTableCell = ({ content: { type, data } }) => {
+const VehicleTableCell = ({ content: { type, data, vehicleId } }) => {
   if (type === 'equipments' && Array.isArray(data)) {
     const vehicleEquipments = [];
     data.forEach(equipmentNumber => {
@@ -28,13 +28,8 @@ const VehicleTableCell = ({ content: { type, data } }) => {
     );
   }
 
-  if (type === 'status' && data === 'active') {
-    return (
-      <div className={`${styles.vehicleTableCell} ${styles.iconWrapper}`}>
-        <Icon type='active' />
-        <p>{data}</p>
-      </div>
-    );
+  if (type === 'status') {
+    return <VehicleStatus status={data} vehicleId={vehicleId} />;
   }
 
   return <p className={styles.vehicleTableCell}>{data}</p>;

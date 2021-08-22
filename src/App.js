@@ -1,13 +1,15 @@
 import Header from './components/UI/Header/Header';
 import VehicleTable from './components/VehicleTable/VehicleTable';
-import vehicles from './data/vehicles.json';
+import VehicleProvider from './store/VehicleProvider';
 
 function App() {
   return (
-    <main>
-      <Header />
-      <VehicleTable vehicles={vehicles} />
-    </main>
+    <VehicleProvider>
+      <main>
+        <Header />
+        <VehicleTable />
+      </main>
+    </VehicleProvider>
   );
 }
 

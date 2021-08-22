@@ -9,7 +9,7 @@ const VehicleTableRow = ({ vehicle }) => {
       <VehicleTableCell content={{ type: 'id', data: id }} />
       <VehicleTableCell content={{ type: 'name', data: name }} />
       <VehicleTableCell content={{ type: 'driver', data: driver }} />
-      <VehicleTableCell content={{ type: 'status', data: status }} />
+      <VehicleTableCell content={{ type: 'status', data: status, vehicleId: id }} />
       <VehicleTableCell content={{ type: 'fuelType', data: fuelType }} />
       <VehicleTableCell content={{ type: 'equipments', data: equipments }} />
     </div>
