@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders without crashing 1`] = `
+<header
+  className="header"
+>
+  <h1
+    className="title"
+  >
+    Welcome, Fleet Owner
+  </h1>
+  <p
+    className="infoText"
+  >
+    Here you can view a full list of your vehicle fleet
+  </p>
+</header>
+`;

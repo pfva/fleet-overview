@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VehicleTableHeader renders without crashing 1`] = `
+<div
+  className="vehicleTableHeader"
+>
+  <p
+    className="vehicleTableCell"
+  >
+    id
+  </p>
+  <p
+    className="vehicleTableCell"
+  >
+    name
+  </p>
+  <p
+    className="vehicleTableCell"
+  >
+    driver
+  </p>
+  <p
+    className="vehicleTableCell"
+  >
+    status
+  </p>
+  <p
+    className="vehicleTableCell"
+  >
+    fuelType
+  </p>
+  <p
+    className="vehicleTableCell"
+  >
+    equipments
+  </p>
+</div>
+`;

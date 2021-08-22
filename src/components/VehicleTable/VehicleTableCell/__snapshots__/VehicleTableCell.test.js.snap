@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VehicleTableCell renders no equipment name if equipments data is undefined 1`] = `
+<p
+  className="vehicleTableCell"
+/>
+`;
+
+exports[`VehicleTableCell renders without crashing 1`] = `
+<p
+  className="vehicleTableCell"
+>
+  GA33
+</p>
+`;

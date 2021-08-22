@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VehicleTableRow renders without crashing 1`] = `
+<div
+  className="vehicleTableRow"
+>
+  <p
+    className="vehicleTableCell"
+  >
+    v3
+  </p>
+  <p
+    className="vehicleTableCell"
+  >
+    GA33
+  </p>
+  <p
+    className="vehicleTableCell"
+  >
+    Squidward Tentacles
+  </p>
+  <div
+    className="vehicleTableCell iconWrapper"
+  >
+    <span
+      className="dot"
+      data-testid="Icon-active"
+    />
+    <p>
+      active
+    </p>
+  </div>
+  <p
+    className="vehicleTableCell"
+  >
+    CNG
+  </p>
+  <div
+    className="vehicleEquipments"
+  >
+    <p
+      className="vehicleTableCell"
+    >
+      Hook
+    </p>
+  </div>
+</div>
+`;
