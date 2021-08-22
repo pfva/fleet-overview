@@ -8,10 +8,18 @@ const VehicleTableRow = ({ vehicle }) => {
     <div className={styles.vehicleTableRow}>
       <VehicleTableCell content={{ type: 'id', data: id, vehicleId: id }} />
       <VehicleTableCell content={{ type: 'name', data: name, vehicleId: id }} />
-      <VehicleTableCell content={{ type: 'driver', data: driver, vehicleId: id }} />
-      <VehicleTableCell content={{ type: 'status', data: status, vehicleId: id }} />
-      <VehicleTableCell content={{ type: 'fuelType', data: fuelType, vehicleId: id }} />
-      <VehicleTableCell content={{ type: 'equipments', data: equipments, vehicleId: id }} />
+      <VehicleTableCell
+        content={{ type: 'driver', data: driver, vehicleId: id }}
+      />
+      <VehicleTableCell
+        content={{ type: 'status', data: status, vehicleId: id }}
+      />
+      <VehicleTableCell
+        content={{ type: 'fuelType', data: fuelType, vehicleId: id }}
+      />
+      <VehicleTableCell
+        content={{ type: 'equipments', data: equipments, vehicleId: id }}
+      />
     </div>
   );
 };

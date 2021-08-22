@@ -23,7 +23,7 @@ const VehicleStatus = ({ status, vehicleId }) => {
         className={`${styles.vehicleTableCell} ${styles.iconWrapper}`}
         onClick={toggleStatus}
       >
-        <Icon type='active' />
+        <Icon type="active" />
         <p>{status}</p>
       </div>
     );

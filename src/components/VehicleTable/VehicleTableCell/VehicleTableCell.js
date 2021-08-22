@@ -73,7 +73,7 @@ const VehicleTableCell = ({ content: { type, data, vehicleId } }) => {
     return (
       <div
         className={styles.vehicleEquipments}
-        data-testid='VehicleEquipments-wrapper'
+        data-testid="VehicleEquipments-wrapper"
       >
         {vehicleEquipments.map(equipmentName => {
           return (
@@ -92,7 +92,7 @@ const VehicleTableCell = ({ content: { type, data, vehicleId } }) => {
 
   return isEditing ? (
     <input
-      type='text'
+      type="text"
       value={updatedData}
       onChange={inputChangeHandler}
       ref={inputElement}
