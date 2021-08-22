@@ -6,11 +6,13 @@ const VehicleProvider = props => {
   const [vehicleState, setVehicleState] = useState(vehiclesJson);
 
   const updateVehicleHandler = (id, updatedVehicle) => {
-    const vehicleToUpdateIndex = vehicleContext.vehicles.findIndex(vehicle => vehicle.id === id);
-    vehicleContext.vehicles[vehicleToUpdateIndex] = updatedVehicle;
-    
-    setVehicleState(vehicleContext.vehicles);
-  }
+    const vehicleToUpdateIndex = vehicleState.findIndex(
+      vehicle => vehicle.id === id
+    );
+    const updatedVehicleState = [...vehicleState];
+    updatedVehicleState[vehicleToUpdateIndex] = updatedVehicle;
+    setVehicleState(updatedVehicleState);
+  };
 
   const vehicleContext = {
     vehicles: vehicleState,

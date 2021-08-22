@@ -6,31 +6,37 @@ exports[`VehicleTableHeader renders without crashing 1`] = `
 >
   <p
     className="vehicleTableCell"
+    onClick={[Function]}
   >
     id
   </p>
   <p
     className="vehicleTableCell"
+    onClick={[Function]}
   >
     name
   </p>
   <p
     className="vehicleTableCell"
+    onClick={[Function]}
   >
     driver
   </p>
   <p
     className="vehicleTableCell"
+    onClick={[Function]}
   >
     status
   </p>
   <p
     className="vehicleTableCell"
+    onClick={[Function]}
   >
     fuelType
   </p>
   <p
     className="vehicleTableCell"
+    onClick={[Function]}
   >
     equipments
   </p>

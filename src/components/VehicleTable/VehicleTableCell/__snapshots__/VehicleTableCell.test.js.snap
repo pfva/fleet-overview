@@ -3,12 +3,14 @@
 exports[`VehicleTableCell renders no equipment name if equipments data is undefined 1`] = `
 <p
   className="vehicleTableCell"
+  onClick={[Function]}
 />
 `;
 
 exports[`VehicleTableCell renders without crashing 1`] = `
 <p
   className="vehicleTableCell"
+  onClick={[Function]}
 >
   GA33
 </p>

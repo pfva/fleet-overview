@@ -6,16 +6,19 @@ exports[`VehicleTableRow renders without crashing 1`] = `
 >
   <p
     className="vehicleTableCell"
+    onClick={[Function]}
   >
     v3
   </p>
   <p
     className="vehicleTableCell"
+    onClick={[Function]}
   >
     GA33
   </p>
   <p
     className="vehicleTableCell"
+    onClick={[Function]}
   >
     Squidward Tentacles
   </p>
@@ -33,6 +36,7 @@ exports[`VehicleTableRow renders without crashing 1`] = `
   </div>
   <p
     className="vehicleTableCell"
+    onClick={[Function]}
   >
     CNG
   </p>

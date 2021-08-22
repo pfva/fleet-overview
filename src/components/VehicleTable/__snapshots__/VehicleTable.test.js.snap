@@ -9,31 +9,37 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
   >
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       id
     </p>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       name
     </p>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       driver
     </p>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       status
     </p>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       fuelType
     </p>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       equipments
     </p>
@@ -43,16 +49,19 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
   >
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       v1
     </p>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       AB23
     </p>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       SpongeBob SquarePants
     </p>
@@ -70,6 +79,7 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
     </div>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       LNG
     </p>
@@ -94,16 +104,19 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
   >
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       v2
     </p>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       XXW123
     </p>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       Patrick Star
     </p>
@@ -121,6 +134,7 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
     </div>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       Diesel
     </p>
@@ -140,16 +154,19 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
   >
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       v3
     </p>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       GA33
     </p>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       Squidward Tentacles
     </p>
@@ -167,6 +184,7 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
     </div>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       CNG
     </p>
@@ -186,16 +204,19 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
   >
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       v4
     </p>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       LK21
     </p>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       Mr. Krabs
     </p>
@@ -207,6 +228,7 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
     </p>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       Diesel
     </p>
@@ -220,16 +242,19 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
   >
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       v5
     </p>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       GHB 5
     </p>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       Plankton and Karen
     </p>
@@ -247,6 +272,7 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
     </div>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       Diesel
     </p>
@@ -271,16 +297,19 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
   >
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       v6
     </p>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       LLO21
     </p>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       Sandy Cheeks
     </p>
@@ -298,6 +327,7 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
     </div>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       Diesel
     </p>
@@ -317,16 +347,19 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
   >
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       v7
     </p>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       OWL21
     </p>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       Mrs. Puff
     </p>
@@ -344,6 +377,7 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
     </div>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       Electrical
     </p>
@@ -357,16 +391,19 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
   >
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       v8
     </p>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       JNWJ12
     </p>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       Pearl Krabs
     </p>
@@ -384,6 +421,7 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
     </div>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       Eletrical
     </p>
@@ -403,16 +441,19 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
   >
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       v9
     </p>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       KL2OK1
     </p>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       Gary the Snail
     </p>
@@ -430,6 +471,7 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
     </div>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       LNG
     </p>
@@ -443,16 +485,19 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
   >
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       v10
     </p>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       LSAO21
     </p>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       Patchy the Pirate
     </p>
@@ -470,6 +515,7 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
     </div>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       LNG
     </p>
@@ -489,16 +535,19 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
   >
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       v11
     </p>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       LSP21P
     </p>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       Potty the Parrot
     </p>
@@ -510,6 +559,7 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
     </p>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       Diesel
     </p>
@@ -529,16 +579,19 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
   >
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       v12
     </p>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       212AWN
     </p>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       French Narrator
     </p>
@@ -556,6 +609,7 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
     </div>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       Diesel
     </p>
@@ -569,16 +623,19 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
   >
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       v13
     </p>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       1W321W
     </p>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       Mermaid Man and Barnacle Boy
     </p>
@@ -596,6 +653,7 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
     </div>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       Diesel
     </p>
@@ -615,16 +673,19 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
   >
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       v14
     </p>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       14HUEO
     </p>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       The Flying Dutchman
     </p>
@@ -642,11 +703,13 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
     </div>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       Diesel
     </p>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     />
   </div>
   <div
@@ -654,16 +717,19 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
   >
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       v15
     </p>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       
     </p>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       King Neptune
     </p>
@@ -681,6 +747,7 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
     </div>
     <p
       className="vehicleTableCell"
+      onClick={[Function]}
     >
       Diesel
     </p>
