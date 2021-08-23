@@ -34,7 +34,7 @@ describe('VehicleTableHeader', () => {
 
   it('renders the fuelType column header', () => {
     render(<VehicleTableHeader />);
-    const fuelType = screen.getByText(/fuelType/i);
+    const fuelType = screen.getByText(/fuel type/i);
     expect(fuelType).toBeInTheDocument();
   });
 

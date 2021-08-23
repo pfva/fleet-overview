@@ -8,19 +8,31 @@ exports[`VehicleTableRow renders without crashing 1`] = `
     className="vehicleTableCell"
     onClick={[Function]}
   >
-    v3
+    <span
+      className="dataText"
+    >
+      v3
+    </span>
   </p>
   <p
     className="vehicleTableCell"
     onClick={[Function]}
   >
-    GA33
+    <span
+      className="dataText"
+    >
+      GA33
+    </span>
   </p>
   <p
     className="vehicleTableCell"
     onClick={[Function]}
   >
-    Squidward Tentacles
+    <span
+      className="dataText"
+    >
+      Squidward Tentacles
+    </span>
   </p>
   <div
     className="vehicleTableCell iconWrapper"
@@ -31,25 +43,37 @@ exports[`VehicleTableRow renders without crashing 1`] = `
       data-testid="Icon-active"
     />
     <p>
-      active
+      <span
+        className="dataText"
+      >
+        active
+      </span>
     </p>
   </div>
   <p
     className="vehicleTableCell"
     onClick={[Function]}
   >
-    CNG
+    <span
+      className="dataText"
+    >
+      CNG
+    </span>
   </p>
   <div
     className="vehicleEquipments"
     data-testid="VehicleEquipments-wrapper"
     onClick={[Function]}
   >
-    <p
-      className="vehicleTableCell"
+    <span
+      className="dataText adjustHovered"
     >
-      Hook
-    </p>
+      <p
+        className="vehicleTableCell"
+      >
+        Hook
+      </p>
+    </span>
   </div>
 </div>
 `;

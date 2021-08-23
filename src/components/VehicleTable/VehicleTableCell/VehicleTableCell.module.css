@@ -38,3 +38,17 @@
     width: calc(100vw/6);
   }
 }
+
+.dataText:hover {
+  position: relative;
+  right: var(--spacing-extra-small);
+  padding: var(--spacing-extra-small);
+  background-color: var(--color-grey-one);
+  border-radius: var(--border-radius-large);
+  transition: background-color 0.2s;
+}
+
+.adjustHovered:hover {
+  margin: -4px;
+  right: 0;
+}

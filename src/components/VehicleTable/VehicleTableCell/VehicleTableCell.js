@@ -90,7 +90,7 @@ const VehicleTableCell = ({ content: { type, data, vehicleId } }) => {
     />
   ) : (
     <p className={styles.vehicleTableCell} onClick={toggleEditHandler}>
-      {data}
+      <span className={styles.dataText}>{data}</span>
     </p>
   );
 };

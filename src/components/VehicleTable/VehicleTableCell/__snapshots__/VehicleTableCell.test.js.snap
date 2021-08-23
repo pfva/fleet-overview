@@ -4,7 +4,11 @@ exports[`VehicleTableCell renders no equipment name if equipments data is undefi
 <p
   className="vehicleTableCell"
   onClick={[Function]}
-/>
+>
+  <span
+    className="dataText"
+  />
+</p>
 `;
 
 exports[`VehicleTableCell renders without crashing 1`] = `
@@ -12,6 +16,10 @@ exports[`VehicleTableCell renders without crashing 1`] = `
   className="vehicleTableCell"
   onClick={[Function]}
 >
-  GA33
+  <span
+    className="dataText"
+  >
+    GA33
+  </span>
 </p>
 `;

@@ -30,7 +30,7 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
     <p
       className="vehicleHeaderCell"
     >
-      FuelType
+      Fuel type
     </p>
     <p
       className="vehicleHeaderCell"
@@ -48,19 +48,31 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        v1
+        <span
+          className="dataText"
+        >
+          v1
+        </span>
       </p>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        AB23
+        <span
+          className="dataText"
+        >
+          AB23
+        </span>
       </p>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        SpongeBob SquarePants
+        <span
+          className="dataText"
+        >
+          SpongeBob SquarePants
+        </span>
       </p>
       <div
         className="vehicleTableCell iconWrapper"
@@ -71,30 +83,42 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
           data-testid="Icon-active"
         />
         <p>
-          active
+          <span
+            className="dataText"
+          >
+            active
+          </span>
         </p>
       </div>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        LNG
+        <span
+          className="dataText"
+        >
+          LNG
+        </span>
       </p>
       <div
         className="vehicleEquipments"
         data-testid="VehicleEquipments-wrapper"
         onClick={[Function]}
       >
-        <p
-          className="vehicleTableCell"
+        <span
+          className="dataText adjustHovered"
         >
-          Crane
-        </p>
-        <p
-          className="vehicleTableCell"
-        >
-          Tachograph
-        </p>
+          <p
+            className="vehicleTableCell"
+          >
+            Crane
+          </p>
+          <p
+            className="vehicleTableCell"
+          >
+            Tachograph
+          </p>
+        </span>
       </div>
     </div>
     <div
@@ -104,19 +128,31 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        v2
+        <span
+          className="dataText"
+        >
+          v2
+        </span>
       </p>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        XXW123
+        <span
+          className="dataText"
+        >
+          XXW123
+        </span>
       </p>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        Patrick Star
+        <span
+          className="dataText"
+        >
+          Patrick Star
+        </span>
       </p>
       <div
         className="vehicleTableCell iconWrapper"
@@ -127,25 +163,37 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
           data-testid="Icon-active"
         />
         <p>
-          active
+          <span
+            className="dataText"
+          >
+            active
+          </span>
         </p>
       </div>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        Diesel
+        <span
+          className="dataText"
+        >
+          Diesel
+        </span>
       </p>
       <div
         className="vehicleEquipments"
         data-testid="VehicleEquipments-wrapper"
         onClick={[Function]}
       >
-        <p
-          className="vehicleTableCell"
+        <span
+          className="dataText adjustHovered"
         >
-          Tachograph
-        </p>
+          <p
+            className="vehicleTableCell"
+          >
+            Tachograph
+          </p>
+        </span>
       </div>
     </div>
     <div
@@ -155,19 +203,31 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        v3
+        <span
+          className="dataText"
+        >
+          v3
+        </span>
       </p>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        GA33
+        <span
+          className="dataText"
+        >
+          GA33
+        </span>
       </p>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        Squidward Tentacles
+        <span
+          className="dataText"
+        >
+          Squidward Tentacles
+        </span>
       </p>
       <div
         className="vehicleTableCell iconWrapper"
@@ -178,25 +238,37 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
           data-testid="Icon-active"
         />
         <p>
-          active
+          <span
+            className="dataText"
+          >
+            active
+          </span>
         </p>
       </div>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        CNG
-      </p>
-      <div
-        className="vehicleEquipments"
-        data-testid="VehicleEquipments-wrapper"
-        onClick={[Function]}
-      >
-        <p
-          className="vehicleTableCell"
+        <span
+          className="dataText"
         >
-          Hook
-        </p>
+          CNG
+        </span>
+      </p>
+      <div
+        className="vehicleEquipments"
+        data-testid="VehicleEquipments-wrapper"
+        onClick={[Function]}
+      >
+        <span
+          className="dataText adjustHovered"
+        >
+          <p
+            className="vehicleTableCell"
+          >
+            Hook
+          </p>
+        </span>
       </div>
     </div>
     <div
@@ -206,37 +278,61 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        v4
+        <span
+          className="dataText"
+        >
+          v4
+        </span>
       </p>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        LK21
+        <span
+          className="dataText"
+        >
+          LK21
+        </span>
       </p>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        Mr. Krabs
+        <span
+          className="dataText"
+        >
+          Mr. Krabs
+        </span>
       </p>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        inactive
+        <span
+          className="dataText"
+        >
+          inactive
+        </span>
       </p>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        Diesel
+        <span
+          className="dataText"
+        >
+          Diesel
+        </span>
       </p>
       <div
         className="vehicleEquipments"
         data-testid="VehicleEquipments-wrapper"
         onClick={[Function]}
-      />
+      >
+        <span
+          className="dataText adjustHovered"
+        />
+      </div>
     </div>
     <div
       className="vehicleTableRow"
@@ -245,19 +341,31 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        v5
+        <span
+          className="dataText"
+        >
+          v5
+        </span>
       </p>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        GHB 5
+        <span
+          className="dataText"
+        >
+          GHB 5
+        </span>
       </p>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        Plankton and Karen
+        <span
+          className="dataText"
+        >
+          Plankton and Karen
+        </span>
       </p>
       <div
         className="vehicleTableCell iconWrapper"
@@ -268,30 +376,42 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
           data-testid="Icon-active"
         />
         <p>
-          active
+          <span
+            className="dataText"
+          >
+            active
+          </span>
         </p>
       </div>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        Diesel
+        <span
+          className="dataText"
+        >
+          Diesel
+        </span>
       </p>
       <div
         className="vehicleEquipments"
         data-testid="VehicleEquipments-wrapper"
         onClick={[Function]}
       >
-        <p
-          className="vehicleTableCell"
+        <span
+          className="dataText adjustHovered"
         >
-          Crane
-        </p>
-        <p
-          className="vehicleTableCell"
-        >
-          Hook
-        </p>
+          <p
+            className="vehicleTableCell"
+          >
+            Crane
+          </p>
+          <p
+            className="vehicleTableCell"
+          >
+            Hook
+          </p>
+        </span>
       </div>
     </div>
     <div
@@ -301,19 +421,31 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        v6
+        <span
+          className="dataText"
+        >
+          v6
+        </span>
       </p>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        LLO21
+        <span
+          className="dataText"
+        >
+          LLO21
+        </span>
       </p>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        Sandy Cheeks
+        <span
+          className="dataText"
+        >
+          Sandy Cheeks
+        </span>
       </p>
       <div
         className="vehicleTableCell iconWrapper"
@@ -324,25 +456,37 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
           data-testid="Icon-active"
         />
         <p>
-          active
+          <span
+            className="dataText"
+          >
+            active
+          </span>
         </p>
       </div>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        Diesel
+        <span
+          className="dataText"
+        >
+          Diesel
+        </span>
       </p>
       <div
         className="vehicleEquipments"
         data-testid="VehicleEquipments-wrapper"
         onClick={[Function]}
       >
-        <p
-          className="vehicleTableCell"
+        <span
+          className="dataText adjustHovered"
         >
-          Fire Extinguisher
-        </p>
+          <p
+            className="vehicleTableCell"
+          >
+            Fire Extinguisher
+          </p>
+        </span>
       </div>
     </div>
     <div
@@ -352,19 +496,31 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        v7
+        <span
+          className="dataText"
+        >
+          v7
+        </span>
       </p>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        OWL21
+        <span
+          className="dataText"
+        >
+          OWL21
+        </span>
       </p>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        Mrs. Puff
+        <span
+          className="dataText"
+        >
+          Mrs. Puff
+        </span>
       </p>
       <div
         className="vehicleTableCell iconWrapper"
@@ -375,20 +531,32 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
           data-testid="Icon-active"
         />
         <p>
-          active
+          <span
+            className="dataText"
+          >
+            active
+          </span>
         </p>
       </div>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        Electrical
+        <span
+          className="dataText"
+        >
+          Electrical
+        </span>
       </p>
       <div
         className="vehicleEquipments"
         data-testid="VehicleEquipments-wrapper"
         onClick={[Function]}
-      />
+      >
+        <span
+          className="dataText adjustHovered"
+        />
+      </div>
     </div>
     <div
       className="vehicleTableRow"
@@ -397,19 +565,31 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        v8
+        <span
+          className="dataText"
+        >
+          v8
+        </span>
       </p>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        JNWJ12
+        <span
+          className="dataText"
+        >
+          JNWJ12
+        </span>
       </p>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        Pearl Krabs
+        <span
+          className="dataText"
+        >
+          Pearl Krabs
+        </span>
       </p>
       <div
         className="vehicleTableCell iconWrapper"
@@ -420,25 +600,37 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
           data-testid="Icon-active"
         />
         <p>
-          active
+          <span
+            className="dataText"
+          >
+            active
+          </span>
         </p>
       </div>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        Eletrical
+        <span
+          className="dataText"
+        >
+          Eletrical
+        </span>
       </p>
       <div
         className="vehicleEquipments"
         data-testid="VehicleEquipments-wrapper"
         onClick={[Function]}
       >
-        <p
-          className="vehicleTableCell"
+        <span
+          className="dataText adjustHovered"
         >
-          Fire Extinguisher
-        </p>
+          <p
+            className="vehicleTableCell"
+          >
+            Fire Extinguisher
+          </p>
+        </span>
       </div>
     </div>
     <div
@@ -448,19 +640,31 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        v9
+        <span
+          className="dataText"
+        >
+          v9
+        </span>
       </p>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        KL2OK1
+        <span
+          className="dataText"
+        >
+          KL2OK1
+        </span>
       </p>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        Gary the Snail
+        <span
+          className="dataText"
+        >
+          Gary the Snail
+        </span>
       </p>
       <div
         className="vehicleTableCell iconWrapper"
@@ -471,20 +675,32 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
           data-testid="Icon-active"
         />
         <p>
-          active
+          <span
+            className="dataText"
+          >
+            active
+          </span>
         </p>
       </div>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        LNG
+        <span
+          className="dataText"
+        >
+          LNG
+        </span>
       </p>
       <div
         className="vehicleEquipments"
         data-testid="VehicleEquipments-wrapper"
         onClick={[Function]}
-      />
+      >
+        <span
+          className="dataText adjustHovered"
+        />
+      </div>
     </div>
     <div
       className="vehicleTableRow"
@@ -493,19 +709,31 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        v10
+        <span
+          className="dataText"
+        >
+          v10
+        </span>
       </p>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        LSAO21
+        <span
+          className="dataText"
+        >
+          LSAO21
+        </span>
       </p>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        Patchy the Pirate
+        <span
+          className="dataText"
+        >
+          Patchy the Pirate
+        </span>
       </p>
       <div
         className="vehicleTableCell iconWrapper"
@@ -516,25 +744,37 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
           data-testid="Icon-active"
         />
         <p>
-          active
+          <span
+            className="dataText"
+          >
+            active
+          </span>
         </p>
       </div>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        LNG
+        <span
+          className="dataText"
+        >
+          LNG
+        </span>
       </p>
       <div
         className="vehicleEquipments"
         data-testid="VehicleEquipments-wrapper"
         onClick={[Function]}
       >
-        <p
-          className="vehicleTableCell"
+        <span
+          className="dataText adjustHovered"
         >
-          Tachograph
-        </p>
+          <p
+            className="vehicleTableCell"
+          >
+            Tachograph
+          </p>
+        </span>
       </div>
     </div>
     <div
@@ -544,42 +784,66 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        v11
+        <span
+          className="dataText"
+        >
+          v11
+        </span>
       </p>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        LSP21P
+        <span
+          className="dataText"
+        >
+          LSP21P
+        </span>
       </p>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        Potty the Parrot
+        <span
+          className="dataText"
+        >
+          Potty the Parrot
+        </span>
       </p>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        inactive
+        <span
+          className="dataText"
+        >
+          inactive
+        </span>
       </p>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        Diesel
+        <span
+          className="dataText"
+        >
+          Diesel
+        </span>
       </p>
       <div
         className="vehicleEquipments"
         data-testid="VehicleEquipments-wrapper"
         onClick={[Function]}
       >
-        <p
-          className="vehicleTableCell"
+        <span
+          className="dataText adjustHovered"
         >
-          Hook
-        </p>
+          <p
+            className="vehicleTableCell"
+          >
+            Hook
+          </p>
+        </span>
       </div>
     </div>
     <div
@@ -589,19 +853,31 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        v12
+        <span
+          className="dataText"
+        >
+          v12
+        </span>
       </p>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        212AWN
+        <span
+          className="dataText"
+        >
+          212AWN
+        </span>
       </p>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        French Narrator
+        <span
+          className="dataText"
+        >
+          French Narrator
+        </span>
       </p>
       <div
         className="vehicleTableCell iconWrapper"
@@ -612,20 +888,32 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
           data-testid="Icon-active"
         />
         <p>
-          active
+          <span
+            className="dataText"
+          >
+            active
+          </span>
         </p>
       </div>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        Diesel
+        <span
+          className="dataText"
+        >
+          Diesel
+        </span>
       </p>
       <div
         className="vehicleEquipments"
         data-testid="VehicleEquipments-wrapper"
         onClick={[Function]}
-      />
+      >
+        <span
+          className="dataText adjustHovered"
+        />
+      </div>
     </div>
     <div
       className="vehicleTableRow"
@@ -634,19 +922,31 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        v13
+        <span
+          className="dataText"
+        >
+          v13
+        </span>
       </p>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        1W321W
+        <span
+          className="dataText"
+        >
+          1W321W
+        </span>
       </p>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        Mermaid Man and Barnacle Boy
+        <span
+          className="dataText"
+        >
+          Mermaid Man and Barnacle Boy
+        </span>
       </p>
       <div
         className="vehicleTableCell iconWrapper"
@@ -657,25 +957,37 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
           data-testid="Icon-active"
         />
         <p>
-          active
+          <span
+            className="dataText"
+          >
+            active
+          </span>
         </p>
       </div>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        Diesel
+        <span
+          className="dataText"
+        >
+          Diesel
+        </span>
       </p>
       <div
         className="vehicleEquipments"
         data-testid="VehicleEquipments-wrapper"
         onClick={[Function]}
       >
-        <p
-          className="vehicleTableCell"
+        <span
+          className="dataText adjustHovered"
         >
-          Tachograph
-        </p>
+          <p
+            className="vehicleTableCell"
+          >
+            Tachograph
+          </p>
+        </span>
       </div>
     </div>
     <div
@@ -685,19 +997,31 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        v14
+        <span
+          className="dataText"
+        >
+          v14
+        </span>
       </p>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        14HUEO
+        <span
+          className="dataText"
+        >
+          14HUEO
+        </span>
       </p>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        The Flying Dutchman
+        <span
+          className="dataText"
+        >
+          The Flying Dutchman
+        </span>
       </p>
       <div
         className="vehicleTableCell iconWrapper"
@@ -708,19 +1032,31 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
           data-testid="Icon-active"
         />
         <p>
-          active
+          <span
+            className="dataText"
+          >
+            active
+          </span>
         </p>
       </div>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        Diesel
+        <span
+          className="dataText"
+        >
+          Diesel
+        </span>
       </p>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
-      />
+      >
+        <span
+          className="dataText"
+        />
+      </p>
     </div>
     <div
       className="vehicleTableRow"
@@ -729,19 +1065,31 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        v15
+        <span
+          className="dataText"
+        >
+          v15
+        </span>
       </p>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        
+        <span
+          className="dataText"
+        >
+          
+        </span>
       </p>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        King Neptune
+        <span
+          className="dataText"
+        >
+          King Neptune
+        </span>
       </p>
       <div
         className="vehicleTableCell iconWrapper"
@@ -752,40 +1100,52 @@ exports[`VehicleTable renders an array of vehicles 1`] = `
           data-testid="Icon-active"
         />
         <p>
-          active
+          <span
+            className="dataText"
+          >
+            active
+          </span>
         </p>
       </div>
       <p
         className="vehicleTableCell"
         onClick={[Function]}
       >
-        Diesel
+        <span
+          className="dataText"
+        >
+          Diesel
+        </span>
       </p>
       <div
         className="vehicleEquipments"
         data-testid="VehicleEquipments-wrapper"
         onClick={[Function]}
       >
-        <p
-          className="vehicleTableCell"
+        <span
+          className="dataText adjustHovered"
         >
-          Crane
-        </p>
-        <p
-          className="vehicleTableCell"
-        >
-          Tachograph
-        </p>
-        <p
-          className="vehicleTableCell"
-        >
-          Fire Extinguisher
-        </p>
-        <p
-          className="vehicleTableCell"
-        >
-          Hook
-        </p>
+          <p
+            className="vehicleTableCell"
+          >
+            Crane
+          </p>
+          <p
+            className="vehicleTableCell"
+          >
+            Tachograph
+          </p>
+          <p
+            className="vehicleTableCell"
+          >
+            Fire Extinguisher
+          </p>
+          <p
+            className="vehicleTableCell"
+          >
+            Hook
+          </p>
+        </span>
       </div>
     </div>
   </div>

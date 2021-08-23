@@ -25,7 +25,7 @@ exports[`Header renders without crashing 1`] = `
     <p
       className="infoText"
     >
-      Here you can view a full list of your vehicle fleet.
+      Here you can view a detailed list of your vehicle fleet.
     </p>
     <p
       className="infoText"
@@ -35,7 +35,7 @@ exports[`Header renders without crashing 1`] = `
     <p
       className="infoText"
     >
-      The updated vehicle will be saved when you press Enter/Esc, or click anywhere outside.
+      The updated vehicle will be saved when you press Enter, or click anywhere outside.
     </p>
   </div>
 </header>

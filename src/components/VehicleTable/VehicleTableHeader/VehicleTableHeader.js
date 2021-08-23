@@ -8,7 +8,7 @@ const VehicleTableHeader = () => {
       <VehicleHeaderCell title={'Name'} />
       <VehicleHeaderCell title={'Driver'} />
       <VehicleHeaderCell title={'Status'} />
-      <VehicleHeaderCell title={'FuelType'} />
+      <VehicleHeaderCell title={'Fuel type'} />
       <VehicleHeaderCell title={'Equipments'} />
     </div>
   );

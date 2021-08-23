@@ -27,7 +27,7 @@ exports[`VehicleTableHeader renders without crashing 1`] = `
   <p
     className="vehicleHeaderCell"
   >
-    FuelType
+    Fuel type
   </p>
   <p
     className="vehicleHeaderCell"

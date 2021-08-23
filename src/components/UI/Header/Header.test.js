@@ -16,7 +16,7 @@ describe('Header', () => {
 
   it('renders the information text', () => {
     render(<Header />);
-    const infoText = screen.getByText(/Here you can view a full list/i);
+    const infoText = screen.getByText(/Here you can view a detailed list/i);
     expect(infoText).toBeInTheDocument();
   });
 });

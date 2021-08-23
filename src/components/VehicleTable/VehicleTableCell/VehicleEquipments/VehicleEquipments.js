@@ -117,13 +117,15 @@ const VehicleEquipments = ({ equipments, vehicleId }) => {
       data-testid="VehicleEquipments-wrapper"
       onClick={toggleEditHandler}
     >
-      {vehicleEquipments.map(equipmentName => {
-        return (
-          <p className={styles.vehicleTableCell} key={equipmentName}>
-            {equipmentName}
-          </p>
-        );
-      })}
+      <span className={`${styles.dataText} ${styles.adjustHovered}`}>
+        {vehicleEquipments.map(equipmentName => {
+          return (
+            <p className={styles.vehicleTableCell} key={equipmentName}>
+              {equipmentName}
+            </p>
+          );
+        })}
+      </span>
     </div>
   );
 };
