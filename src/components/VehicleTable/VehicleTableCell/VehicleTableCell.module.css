@@ -23,3 +23,18 @@
   margin-bottom: -4px;
   margin-top: -4px;
 }
+
+.equipmentsWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.equipmentsCheckbox {
+  margin-right: var(--spacing-small);
+}
+
+@media screen and (min-width: 1080px) {
+  .input {
+    width: calc(100vw/6);
+  }
+}

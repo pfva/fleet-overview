@@ -1,8 +1,8 @@
 import { useState, useRef, useEffect, useContext } from 'react';
 import VehicleContext from '../../../../src/store/vehicle-context';
 import VehicleStatus from './VehicleStatus/VehicleStatus';
+import VehicleEquipments from './VehicleEquipments/VehicleEquipments';
 import styles from './VehicleTableCell.module.css';
-import equipments from '../../../data/equipments.json';
 
 const VehicleTableCell = ({ content: { type, data, vehicleId } }) => {
   const [updatedData, setUpdatedData] = useState(data);
@@ -53,39 +53,28 @@ const VehicleTableCell = ({ content: { type, data, vehicleId } }) => {
         }
       }
     };
+
+    const handleEscKeypress = e => {
+      if (e.code === 'Escape') {
+        setIsEditing(false);
+        setUpdatedData(data);
+      }
+    };
+
     document.addEventListener('keydown', handleEnterKeypress);
+    document.addEventListener('keydown', handleEscKeypress);
     return () => {
       document.removeEventListener('keydown', handleEnterKeypress);
+      document.removeEventListener('keydown', handleEscKeypress);
     };
   }, [updatedData]);
 
-  // Special handling for equipments
-  // TODO: Move to own component
+  // Special interactivity for equipments
   if (type === 'equipments' && Array.isArray(data)) {
-    const vehicleEquipments = [];
-    data.forEach(equipmentNumber => {
-      const equpimentName = equipments.find(
-        equipment => equipment.id === equipmentNumber
-      ).name;
-      vehicleEquipments.push(equpimentName);
-    });
-
-    return (
-      <div
-        className={styles.vehicleEquipments}
-        data-testid="VehicleEquipments-wrapper"
-      >
-        {vehicleEquipments.map(equipmentName => {
-          return (
-            <p className={styles.vehicleTableCell} key={equipmentName}>
-              {equipmentName}
-            </p>
-          );
-        })}
-      </div>
-    );
+    return <VehicleEquipments equipments={data} vehicleId={vehicleId} />;
   }
 
+  // Special interactivity for status
   if (type === 'status') {
     return <VehicleStatus status={data} vehicleId={vehicleId} />;
   }
