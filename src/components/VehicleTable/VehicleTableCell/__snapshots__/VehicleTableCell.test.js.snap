@@ -3,6 +3,7 @@
 exports[`VehicleTableCell renders no equipment name if equipments data is undefined 1`] = `
 <p
   className="vehicleTableCell"
+  data-testid="VehicleTableCell-text"
   onClick={[Function]}
 >
   <span
@@ -14,6 +15,7 @@ exports[`VehicleTableCell renders no equipment name if equipments data is undefi
 exports[`VehicleTableCell renders without crashing 1`] = `
 <p
   className="vehicleTableCell"
+  data-testid="VehicleTableCell-text"
   onClick={[Function]}
 >
   <span

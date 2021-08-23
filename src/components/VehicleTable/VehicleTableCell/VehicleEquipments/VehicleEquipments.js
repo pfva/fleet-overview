@@ -90,6 +90,7 @@ const VehicleEquipments = ({ equipments, vehicleId }) => {
     <div
       className={`${styles.equipmentsWrapper} ${styles.vehicleTableCell}`}
       ref={checkboxWrapper}
+      data-testid="VehicleEquipments-checkbox-wrapper"
     >
       {equipmentsContext.equipments.map(equipment => {
         return (

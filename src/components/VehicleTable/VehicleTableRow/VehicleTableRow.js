@@ -5,7 +5,7 @@ const VehicleTableRow = ({ vehicle }) => {
   const { id, name, driver, status, fuelType, equipments } = vehicle;
 
   return (
-    <div className={styles.vehicleTableRow}>
+    <div className={styles.vehicleTableRow} data-testid="VehicleTableRow">
       <VehicleTableCell content={{ type: 'id', data: id, vehicleId: id }} />
       <VehicleTableCell content={{ type: 'name', data: name, vehicleId: id }} />
       <VehicleTableCell

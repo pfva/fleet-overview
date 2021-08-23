@@ -87,9 +87,10 @@ const VehicleTableCell = ({ content: { type, data, vehicleId } }) => {
       ref={inputElement}
       className={styles.input}
       autoFocus
+      data-testid="VehicleTableCell-input"
     />
   ) : (
-    <p className={styles.vehicleTableCell} onClick={toggleEditHandler}>
+    <p className={styles.vehicleTableCell} onClick={toggleEditHandler} data-testid="VehicleTableCell-text">
       <span className={styles.dataText}>{data}</span>
     </p>
   );

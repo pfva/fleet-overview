@@ -3,9 +3,11 @@
 exports[`VehicleTableRow renders without crashing 1`] = `
 <div
   className="vehicleTableRow"
+  data-testid="VehicleTableRow"
 >
   <p
     className="vehicleTableCell"
+    data-testid="VehicleTableCell-text"
     onClick={[Function]}
   >
     <span
@@ -16,6 +18,7 @@ exports[`VehicleTableRow renders without crashing 1`] = `
   </p>
   <p
     className="vehicleTableCell"
+    data-testid="VehicleTableCell-text"
     onClick={[Function]}
   >
     <span
@@ -26,6 +29,7 @@ exports[`VehicleTableRow renders without crashing 1`] = `
   </p>
   <p
     className="vehicleTableCell"
+    data-testid="VehicleTableCell-text"
     onClick={[Function]}
   >
     <span
@@ -36,6 +40,7 @@ exports[`VehicleTableRow renders without crashing 1`] = `
   </p>
   <div
     className="vehicleTableCell iconWrapper"
+    data-testid="VehicleStatus-on"
     onClick={[Function]}
   >
     <span
@@ -52,6 +57,7 @@ exports[`VehicleTableRow renders without crashing 1`] = `
   </div>
   <p
     className="vehicleTableCell"
+    data-testid="VehicleTableCell-text"
     onClick={[Function]}
   >
     <span

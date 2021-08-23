@@ -22,6 +22,7 @@ const VehicleStatus = ({ status, vehicleId }) => {
       <div
         className={`${styles.vehicleTableCell} ${styles.iconWrapper}`}
         onClick={toggleStatus}
+        data-testid="VehicleStatus-on"
       >
         <Icon type="active" />
         <p>
@@ -31,7 +32,11 @@ const VehicleStatus = ({ status, vehicleId }) => {
     );
   } else {
     return (
-      <p className={styles.vehicleTableCell} onClick={toggleStatus}>
+      <p
+        className={styles.vehicleTableCell}
+        onClick={toggleStatus}
+        data-testid="VehicleStatus-off"
+      >
         <span className={styles.dataText}>{status}</span>
       </p>
     );
