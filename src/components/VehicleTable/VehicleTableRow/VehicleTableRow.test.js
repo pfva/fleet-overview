@@ -1,6 +1,7 @@
-import { render, screen } from '@testing-library/react';
+import { render, screen } from '../../../test/test-utils';
 import renderer from 'react-test-renderer';
 import VehicleTableRow from './VehicleTableRow';
+import EquipmentsProvider from '../../../store/EquipmentsProvider';
 
 const mockedVehicle = {
   id: 'v3',
@@ -14,7 +15,11 @@ const mockedVehicle = {
 describe('VehicleTableRow', () => {
   it('renders without crashing', () => {
     const tree = renderer
-      .create(<VehicleTableRow vehicle={mockedVehicle} />)
+      .create(
+        <EquipmentsProvider>
+          <VehicleTableRow vehicle={mockedVehicle} />
+        </EquipmentsProvider>
+      )
       .toJSON();
     expect(tree).toMatchSnapshot();
   });

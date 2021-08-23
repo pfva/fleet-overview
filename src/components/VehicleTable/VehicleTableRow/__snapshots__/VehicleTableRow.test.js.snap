@@ -43,6 +43,7 @@ exports[`VehicleTableRow renders without crashing 1`] = `
   <div
     className="vehicleEquipments"
     data-testid="VehicleEquipments-wrapper"
+    onClick={[Function]}
   >
     <p
       className="vehicleTableCell"
