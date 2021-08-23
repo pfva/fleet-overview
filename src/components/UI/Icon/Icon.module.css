@@ -14,4 +14,8 @@
   .dot {
     margin-right: var(--font-size-extra-small);
   }
+
+  .vehicle {
+    display: none;
+  }
 }

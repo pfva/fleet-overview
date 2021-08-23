@@ -7,32 +7,32 @@ exports[`VehicleTableHeader renders without crashing 1`] = `
   <p
     className="vehicleHeaderCell"
   >
-    id
+    ID
   </p>
   <p
     className="vehicleHeaderCell"
   >
-    name
+    Name
   </p>
   <p
     className="vehicleHeaderCell"
   >
-    driver
+    Driver
   </p>
   <p
     className="vehicleHeaderCell"
   >
-    status
+    Status
   </p>
   <p
     className="vehicleHeaderCell"
   >
-    fuelType
+    FuelType
   </p>
   <p
     className="vehicleHeaderCell"
   >
-    equipments
+    Equipments
   </p>
 </div>
 `;

@@ -5,16 +5,40 @@ exports[`App renders without crashing 1`] = `
   <header
     className="header"
   >
-    <h1
-      className="title"
+    <span
+      className="vehicle"
+      data-testid="Icon-vehicle"
     >
-      Welcome, Fleet Owner
-    </h1>
-    <p
-      className="infoText"
+      <svg
+        className="vehicle"
+      >
+        truck.svg
+      </svg>
+    </span>
+    <div
+      className="textWrapper"
     >
-      Here you can view a full list of your vehicle fleet
-    </p>
+      <h1
+        className="title"
+      >
+        Welcome, Fleet Owner
+      </h1>
+      <p
+        className="infoText"
+      >
+        Here you can view a full list of your vehicle fleet.
+      </p>
+      <p
+        className="infoText"
+      >
+        To edit a vehicle, simply click on the field you want to change.
+      </p>
+      <p
+        className="infoText"
+      >
+        The updated vehicle will be saved when you press Enter/Esc, or click anywhere outside.
+      </p>
+    </div>
   </header>
   <div
     className="vehicleTable"
@@ -25,779 +49,783 @@ exports[`App renders without crashing 1`] = `
       <p
         className="vehicleHeaderCell"
       >
-        id
+        ID
       </p>
       <p
         className="vehicleHeaderCell"
       >
-        name
+        Name
       </p>
       <p
         className="vehicleHeaderCell"
       >
-        driver
+        Driver
       </p>
       <p
         className="vehicleHeaderCell"
       >
-        status
+        Status
       </p>
       <p
         className="vehicleHeaderCell"
       >
-        fuelType
+        FuelType
       </p>
       <p
         className="vehicleHeaderCell"
       >
-        equipments
+        Equipments
       </p>
     </div>
     <div
-      className="vehicleTableRow"
+      className="vehicleTableRowWrapper"
     >
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        v1
-      </p>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        AB23
-      </p>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        SpongeBob SquarePants
-      </p>
       <div
-        className="vehicleTableCell iconWrapper"
-        onClick={[Function]}
+        className="vehicleTableRow"
       >
-        <span
-          className="dot"
-          data-testid="Icon-active"
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          v1
+        </p>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          AB23
+        </p>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          SpongeBob SquarePants
+        </p>
+        <div
+          className="vehicleTableCell iconWrapper"
+          onClick={[Function]}
+        >
+          <span
+            className="dot"
+            data-testid="Icon-active"
+          />
+          <p>
+            active
+          </p>
+        </div>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          LNG
+        </p>
+        <div
+          className="vehicleEquipments"
+          data-testid="VehicleEquipments-wrapper"
+          onClick={[Function]}
+        >
+          <p
+            className="vehicleTableCell"
+          >
+            Crane
+          </p>
+          <p
+            className="vehicleTableCell"
+          >
+            Tachograph
+          </p>
+        </div>
+      </div>
+      <div
+        className="vehicleTableRow"
+      >
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          v2
+        </p>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          XXW123
+        </p>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          Patrick Star
+        </p>
+        <div
+          className="vehicleTableCell iconWrapper"
+          onClick={[Function]}
+        >
+          <span
+            className="dot"
+            data-testid="Icon-active"
+          />
+          <p>
+            active
+          </p>
+        </div>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          Diesel
+        </p>
+        <div
+          className="vehicleEquipments"
+          data-testid="VehicleEquipments-wrapper"
+          onClick={[Function]}
+        >
+          <p
+            className="vehicleTableCell"
+          >
+            Tachograph
+          </p>
+        </div>
+      </div>
+      <div
+        className="vehicleTableRow"
+      >
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          v3
+        </p>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          GA33
+        </p>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          Squidward Tentacles
+        </p>
+        <div
+          className="vehicleTableCell iconWrapper"
+          onClick={[Function]}
+        >
+          <span
+            className="dot"
+            data-testid="Icon-active"
+          />
+          <p>
+            active
+          </p>
+        </div>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          CNG
+        </p>
+        <div
+          className="vehicleEquipments"
+          data-testid="VehicleEquipments-wrapper"
+          onClick={[Function]}
+        >
+          <p
+            className="vehicleTableCell"
+          >
+            Hook
+          </p>
+        </div>
+      </div>
+      <div
+        className="vehicleTableRow"
+      >
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          v4
+        </p>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          LK21
+        </p>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          Mr. Krabs
+        </p>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          inactive
+        </p>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          Diesel
+        </p>
+        <div
+          className="vehicleEquipments"
+          data-testid="VehicleEquipments-wrapper"
+          onClick={[Function]}
         />
-        <p>
-          active
-        </p>
       </div>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        LNG
-      </p>
       <div
-        className="vehicleEquipments"
-        data-testid="VehicleEquipments-wrapper"
-        onClick={[Function]}
+        className="vehicleTableRow"
       >
         <p
           className="vehicleTableCell"
+          onClick={[Function]}
         >
-          Crane
+          v5
         </p>
         <p
           className="vehicleTableCell"
+          onClick={[Function]}
         >
-          Tachograph
+          GHB 5
         </p>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          Plankton and Karen
+        </p>
+        <div
+          className="vehicleTableCell iconWrapper"
+          onClick={[Function]}
+        >
+          <span
+            className="dot"
+            data-testid="Icon-active"
+          />
+          <p>
+            active
+          </p>
+        </div>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          Diesel
+        </p>
+        <div
+          className="vehicleEquipments"
+          data-testid="VehicleEquipments-wrapper"
+          onClick={[Function]}
+        >
+          <p
+            className="vehicleTableCell"
+          >
+            Crane
+          </p>
+          <p
+            className="vehicleTableCell"
+          >
+            Hook
+          </p>
+        </div>
       </div>
-    </div>
-    <div
-      className="vehicleTableRow"
-    >
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        v2
-      </p>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        XXW123
-      </p>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        Patrick Star
-      </p>
       <div
-        className="vehicleTableCell iconWrapper"
-        onClick={[Function]}
+        className="vehicleTableRow"
       >
-        <span
-          className="dot"
-          data-testid="Icon-active"
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          v6
+        </p>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          LLO21
+        </p>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          Sandy Cheeks
+        </p>
+        <div
+          className="vehicleTableCell iconWrapper"
+          onClick={[Function]}
+        >
+          <span
+            className="dot"
+            data-testid="Icon-active"
+          />
+          <p>
+            active
+          </p>
+        </div>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          Diesel
+        </p>
+        <div
+          className="vehicleEquipments"
+          data-testid="VehicleEquipments-wrapper"
+          onClick={[Function]}
+        >
+          <p
+            className="vehicleTableCell"
+          >
+            Fire Extinguisher
+          </p>
+        </div>
+      </div>
+      <div
+        className="vehicleTableRow"
+      >
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          v7
+        </p>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          OWL21
+        </p>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          Mrs. Puff
+        </p>
+        <div
+          className="vehicleTableCell iconWrapper"
+          onClick={[Function]}
+        >
+          <span
+            className="dot"
+            data-testid="Icon-active"
+          />
+          <p>
+            active
+          </p>
+        </div>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          Electrical
+        </p>
+        <div
+          className="vehicleEquipments"
+          data-testid="VehicleEquipments-wrapper"
+          onClick={[Function]}
         />
-        <p>
-          active
-        </p>
       </div>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        Diesel
-      </p>
       <div
-        className="vehicleEquipments"
-        data-testid="VehicleEquipments-wrapper"
-        onClick={[Function]}
+        className="vehicleTableRow"
       >
         <p
           className="vehicleTableCell"
+          onClick={[Function]}
         >
-          Tachograph
+          v8
         </p>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          JNWJ12
+        </p>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          Pearl Krabs
+        </p>
+        <div
+          className="vehicleTableCell iconWrapper"
+          onClick={[Function]}
+        >
+          <span
+            className="dot"
+            data-testid="Icon-active"
+          />
+          <p>
+            active
+          </p>
+        </div>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          Eletrical
+        </p>
+        <div
+          className="vehicleEquipments"
+          data-testid="VehicleEquipments-wrapper"
+          onClick={[Function]}
+        >
+          <p
+            className="vehicleTableCell"
+          >
+            Fire Extinguisher
+          </p>
+        </div>
       </div>
-    </div>
-    <div
-      className="vehicleTableRow"
-    >
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        v3
-      </p>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        GA33
-      </p>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        Squidward Tentacles
-      </p>
       <div
-        className="vehicleTableCell iconWrapper"
-        onClick={[Function]}
+        className="vehicleTableRow"
       >
-        <span
-          className="dot"
-          data-testid="Icon-active"
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          v9
+        </p>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          KL2OK1
+        </p>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          Gary the Snail
+        </p>
+        <div
+          className="vehicleTableCell iconWrapper"
+          onClick={[Function]}
+        >
+          <span
+            className="dot"
+            data-testid="Icon-active"
+          />
+          <p>
+            active
+          </p>
+        </div>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          LNG
+        </p>
+        <div
+          className="vehicleEquipments"
+          data-testid="VehicleEquipments-wrapper"
+          onClick={[Function]}
         />
-        <p>
-          active
-        </p>
       </div>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        CNG
-      </p>
       <div
-        className="vehicleEquipments"
-        data-testid="VehicleEquipments-wrapper"
-        onClick={[Function]}
+        className="vehicleTableRow"
       >
         <p
           className="vehicleTableCell"
+          onClick={[Function]}
         >
-          Hook
+          v10
         </p>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          LSAO21
+        </p>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          Patchy the Pirate
+        </p>
+        <div
+          className="vehicleTableCell iconWrapper"
+          onClick={[Function]}
+        >
+          <span
+            className="dot"
+            data-testid="Icon-active"
+          />
+          <p>
+            active
+          </p>
+        </div>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          LNG
+        </p>
+        <div
+          className="vehicleEquipments"
+          data-testid="VehicleEquipments-wrapper"
+          onClick={[Function]}
+        >
+          <p
+            className="vehicleTableCell"
+          >
+            Tachograph
+          </p>
+        </div>
       </div>
-    </div>
-    <div
-      className="vehicleTableRow"
-    >
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        v4
-      </p>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        LK21
-      </p>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        Mr. Krabs
-      </p>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        inactive
-      </p>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        Diesel
-      </p>
       <div
-        className="vehicleEquipments"
-        data-testid="VehicleEquipments-wrapper"
-        onClick={[Function]}
-      />
-    </div>
-    <div
-      className="vehicleTableRow"
-    >
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
+        className="vehicleTableRow"
       >
-        v5
-      </p>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        GHB 5
-      </p>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        Plankton and Karen
-      </p>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          v11
+        </p>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          LSP21P
+        </p>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          Potty the Parrot
+        </p>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          inactive
+        </p>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          Diesel
+        </p>
+        <div
+          className="vehicleEquipments"
+          data-testid="VehicleEquipments-wrapper"
+          onClick={[Function]}
+        >
+          <p
+            className="vehicleTableCell"
+          >
+            Hook
+          </p>
+        </div>
+      </div>
       <div
-        className="vehicleTableCell iconWrapper"
-        onClick={[Function]}
+        className="vehicleTableRow"
       >
-        <span
-          className="dot"
-          data-testid="Icon-active"
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          v12
+        </p>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          212AWN
+        </p>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          French Narrator
+        </p>
+        <div
+          className="vehicleTableCell iconWrapper"
+          onClick={[Function]}
+        >
+          <span
+            className="dot"
+            data-testid="Icon-active"
+          />
+          <p>
+            active
+          </p>
+        </div>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          Diesel
+        </p>
+        <div
+          className="vehicleEquipments"
+          data-testid="VehicleEquipments-wrapper"
+          onClick={[Function]}
         />
-        <p>
-          active
-        </p>
       </div>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        Diesel
-      </p>
       <div
-        className="vehicleEquipments"
-        data-testid="VehicleEquipments-wrapper"
-        onClick={[Function]}
+        className="vehicleTableRow"
       >
         <p
           className="vehicleTableCell"
+          onClick={[Function]}
         >
-          Crane
+          v13
         </p>
         <p
           className="vehicleTableCell"
+          onClick={[Function]}
         >
-          Hook
+          1W321W
         </p>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          Mermaid Man and Barnacle Boy
+        </p>
+        <div
+          className="vehicleTableCell iconWrapper"
+          onClick={[Function]}
+        >
+          <span
+            className="dot"
+            data-testid="Icon-active"
+          />
+          <p>
+            active
+          </p>
+        </div>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          Diesel
+        </p>
+        <div
+          className="vehicleEquipments"
+          data-testid="VehicleEquipments-wrapper"
+          onClick={[Function]}
+        >
+          <p
+            className="vehicleTableCell"
+          >
+            Tachograph
+          </p>
+        </div>
       </div>
-    </div>
-    <div
-      className="vehicleTableRow"
-    >
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        v6
-      </p>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        LLO21
-      </p>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        Sandy Cheeks
-      </p>
       <div
-        className="vehicleTableCell iconWrapper"
-        onClick={[Function]}
+        className="vehicleTableRow"
       >
-        <span
-          className="dot"
-          data-testid="Icon-active"
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          v14
+        </p>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          14HUEO
+        </p>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          The Flying Dutchman
+        </p>
+        <div
+          className="vehicleTableCell iconWrapper"
+          onClick={[Function]}
+        >
+          <span
+            className="dot"
+            data-testid="Icon-active"
+          />
+          <p>
+            active
+          </p>
+        </div>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
+        >
+          Diesel
+        </p>
+        <p
+          className="vehicleTableCell"
+          onClick={[Function]}
         />
-        <p>
-          active
-        </p>
       </div>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        Diesel
-      </p>
       <div
-        className="vehicleEquipments"
-        data-testid="VehicleEquipments-wrapper"
-        onClick={[Function]}
+        className="vehicleTableRow"
       >
         <p
           className="vehicleTableCell"
+          onClick={[Function]}
         >
-          Fire Extinguisher
-        </p>
-      </div>
-    </div>
-    <div
-      className="vehicleTableRow"
-    >
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        v7
-      </p>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        OWL21
-      </p>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        Mrs. Puff
-      </p>
-      <div
-        className="vehicleTableCell iconWrapper"
-        onClick={[Function]}
-      >
-        <span
-          className="dot"
-          data-testid="Icon-active"
-        />
-        <p>
-          active
-        </p>
-      </div>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        Electrical
-      </p>
-      <div
-        className="vehicleEquipments"
-        data-testid="VehicleEquipments-wrapper"
-        onClick={[Function]}
-      />
-    </div>
-    <div
-      className="vehicleTableRow"
-    >
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        v8
-      </p>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        JNWJ12
-      </p>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        Pearl Krabs
-      </p>
-      <div
-        className="vehicleTableCell iconWrapper"
-        onClick={[Function]}
-      >
-        <span
-          className="dot"
-          data-testid="Icon-active"
-        />
-        <p>
-          active
-        </p>
-      </div>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        Eletrical
-      </p>
-      <div
-        className="vehicleEquipments"
-        data-testid="VehicleEquipments-wrapper"
-        onClick={[Function]}
-      >
-        <p
-          className="vehicleTableCell"
-        >
-          Fire Extinguisher
-        </p>
-      </div>
-    </div>
-    <div
-      className="vehicleTableRow"
-    >
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        v9
-      </p>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        KL2OK1
-      </p>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        Gary the Snail
-      </p>
-      <div
-        className="vehicleTableCell iconWrapper"
-        onClick={[Function]}
-      >
-        <span
-          className="dot"
-          data-testid="Icon-active"
-        />
-        <p>
-          active
-        </p>
-      </div>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        LNG
-      </p>
-      <div
-        className="vehicleEquipments"
-        data-testid="VehicleEquipments-wrapper"
-        onClick={[Function]}
-      />
-    </div>
-    <div
-      className="vehicleTableRow"
-    >
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        v10
-      </p>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        LSAO21
-      </p>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        Patchy the Pirate
-      </p>
-      <div
-        className="vehicleTableCell iconWrapper"
-        onClick={[Function]}
-      >
-        <span
-          className="dot"
-          data-testid="Icon-active"
-        />
-        <p>
-          active
-        </p>
-      </div>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        LNG
-      </p>
-      <div
-        className="vehicleEquipments"
-        data-testid="VehicleEquipments-wrapper"
-        onClick={[Function]}
-      >
-        <p
-          className="vehicleTableCell"
-        >
-          Tachograph
-        </p>
-      </div>
-    </div>
-    <div
-      className="vehicleTableRow"
-    >
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        v11
-      </p>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        LSP21P
-      </p>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        Potty the Parrot
-      </p>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        inactive
-      </p>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        Diesel
-      </p>
-      <div
-        className="vehicleEquipments"
-        data-testid="VehicleEquipments-wrapper"
-        onClick={[Function]}
-      >
-        <p
-          className="vehicleTableCell"
-        >
-          Hook
-        </p>
-      </div>
-    </div>
-    <div
-      className="vehicleTableRow"
-    >
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        v12
-      </p>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        212AWN
-      </p>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        French Narrator
-      </p>
-      <div
-        className="vehicleTableCell iconWrapper"
-        onClick={[Function]}
-      >
-        <span
-          className="dot"
-          data-testid="Icon-active"
-        />
-        <p>
-          active
-        </p>
-      </div>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        Diesel
-      </p>
-      <div
-        className="vehicleEquipments"
-        data-testid="VehicleEquipments-wrapper"
-        onClick={[Function]}
-      />
-    </div>
-    <div
-      className="vehicleTableRow"
-    >
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        v13
-      </p>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        1W321W
-      </p>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        Mermaid Man and Barnacle Boy
-      </p>
-      <div
-        className="vehicleTableCell iconWrapper"
-        onClick={[Function]}
-      >
-        <span
-          className="dot"
-          data-testid="Icon-active"
-        />
-        <p>
-          active
-        </p>
-      </div>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        Diesel
-      </p>
-      <div
-        className="vehicleEquipments"
-        data-testid="VehicleEquipments-wrapper"
-        onClick={[Function]}
-      >
-        <p
-          className="vehicleTableCell"
-        >
-          Tachograph
-        </p>
-      </div>
-    </div>
-    <div
-      className="vehicleTableRow"
-    >
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        v14
-      </p>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        14HUEO
-      </p>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        The Flying Dutchman
-      </p>
-      <div
-        className="vehicleTableCell iconWrapper"
-        onClick={[Function]}
-      >
-        <span
-          className="dot"
-          data-testid="Icon-active"
-        />
-        <p>
-          active
-        </p>
-      </div>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        Diesel
-      </p>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      />
-    </div>
-    <div
-      className="vehicleTableRow"
-    >
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        v15
-      </p>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        
-      </p>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        King Neptune
-      </p>
-      <div
-        className="vehicleTableCell iconWrapper"
-        onClick={[Function]}
-      >
-        <span
-          className="dot"
-          data-testid="Icon-active"
-        />
-        <p>
-          active
-        </p>
-      </div>
-      <p
-        className="vehicleTableCell"
-        onClick={[Function]}
-      >
-        Diesel
-      </p>
-      <div
-        className="vehicleEquipments"
-        data-testid="VehicleEquipments-wrapper"
-        onClick={[Function]}
-      >
-        <p
-          className="vehicleTableCell"
-        >
-          Crane
+          v15
         </p>
         <p
           className="vehicleTableCell"
+          onClick={[Function]}
         >
-          Tachograph
+          
         </p>
         <p
           className="vehicleTableCell"
+          onClick={[Function]}
         >
-          Fire Extinguisher
+          King Neptune
         </p>
+        <div
+          className="vehicleTableCell iconWrapper"
+          onClick={[Function]}
+        >
+          <span
+            className="dot"
+            data-testid="Icon-active"
+          />
+          <p>
+            active
+          </p>
+        </div>
         <p
           className="vehicleTableCell"
+          onClick={[Function]}
         >
-          Hook
+          Diesel
         </p>
+        <div
+          className="vehicleEquipments"
+          data-testid="VehicleEquipments-wrapper"
+          onClick={[Function]}
+        >
+          <p
+            className="vehicleTableCell"
+          >
+            Crane
+          </p>
+          <p
+            className="vehicleTableCell"
+          >
+            Tachograph
+          </p>
+          <p
+            className="vehicleTableCell"
+          >
+            Fire Extinguisher
+          </p>
+          <p
+            className="vehicleTableCell"
+          >
+            Hook
+          </p>
+        </div>
       </div>
     </div>
   </div>

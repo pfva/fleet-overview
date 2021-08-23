@@ -65,6 +65,27 @@ const VehicleEquipments = ({ equipments, vehicleId }) => {
     };
   }, [checkboxWrapper]);
 
+  useEffect(() => {
+    const handleEnterKeypress = e => {
+      if (e.code === 'Enter') {
+        setIsEditing(false);
+      }
+    };
+
+    const handleEscKeypress = e => {
+      if (e.code === 'Escape') {
+        setIsEditing(false);
+      }
+    };
+
+    document.addEventListener('keydown', handleEnterKeypress);
+    document.addEventListener('keydown', handleEscKeypress);
+    return () => {
+      document.removeEventListener('keydown', handleEnterKeypress);
+      document.removeEventListener('keydown', handleEscKeypress);
+    };
+  }, []);
+
   return isEditing ? (
     <div
       className={`${styles.equipmentsWrapper} ${styles.vehicleTableCell}`}

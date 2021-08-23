@@ -10,6 +10,7 @@
 
   --font-color: #141414;
   --color-active: #78b833;
+  --box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 12px;
 }
 
 body {

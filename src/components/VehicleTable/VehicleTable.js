@@ -10,9 +10,11 @@ const VehicleTable = () => {
   return (
     <div className={styles.vehicleTable}>
       <VehicleTableHeader />
-      {vehicleContext.vehicles.map(vehicle => {
-        return <VehicleTableRow key={vehicle.id} vehicle={vehicle} />;
-      })}
+      <div className={styles.vehicleTableRowWrapper}>
+        {vehicleContext.vehicles.map(vehicle => {
+          return <VehicleTableRow key={vehicle.id} vehicle={vehicle} />;
+        })}
+      </div>
     </div>
   );
 };

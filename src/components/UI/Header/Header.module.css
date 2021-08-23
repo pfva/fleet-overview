@@ -1,13 +1,27 @@
 .header {
-  height: 20vh;
+  display: flex;
   margin: var(--spacing-normal);
+  padding: var(--spacing-extra-large) 0;
+}
+
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: var(--spacing-extra-large);
+}
+
+@media screen and (max-width: 425px) {
+  .textWrapper {
+    margin-left: 0;
+  }
 }
 
 .title {
-  margin-top: var(--spacing-extra-large);
+  margin-top: var(--spacing-small);
   font-size: var(--font-size-title);
 }
 
 .infoText {
   color: var(--color-grey-three);
+  margin-bottom: var(--spacing-extra-small);
 }
