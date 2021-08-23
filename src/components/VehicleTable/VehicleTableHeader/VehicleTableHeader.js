@@ -1,15 +1,15 @@
-import VehicleTableCell from '../VehicleTableCell/VehicleTableCell';
+import VehicleHeaderCell from '../VehicleTableHeader/VehicleHeaderCell/VehicleHeaderCell';
 import styles from './VehicleTableHeader.module.css';
 
 const VehicleTableHeader = () => {
   return (
     <div className={styles.vehicleTableHeader}>
-      <VehicleTableCell content={{ data: 'id' }} />
-      <VehicleTableCell content={{ data: 'name' }} />
-      <VehicleTableCell content={{ data: 'driver' }} />
-      <VehicleTableCell content={{ data: 'status' }} />
-      <VehicleTableCell content={{ data: 'fuelType' }} />
-      <VehicleTableCell content={{ data: 'equipments' }} />
+      <VehicleHeaderCell title={'id'} />
+      <VehicleHeaderCell title={'name'} />
+      <VehicleHeaderCell title={'driver'} />
+      <VehicleHeaderCell title={'status'} />
+      <VehicleHeaderCell title={'fuelType'} />
+      <VehicleHeaderCell title={'equipments'} />
     </div>
   );
 };

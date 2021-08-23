@@ -23,38 +23,32 @@ exports[`App renders without crashing 1`] = `
       className="vehicleTableHeader"
     >
       <p
-        className="vehicleTableCell"
-        onClick={[Function]}
+        className="vehicleHeaderCell"
       >
         id
       </p>
       <p
-        className="vehicleTableCell"
-        onClick={[Function]}
+        className="vehicleHeaderCell"
       >
         name
       </p>
       <p
-        className="vehicleTableCell"
-        onClick={[Function]}
+        className="vehicleHeaderCell"
       >
         driver
       </p>
       <p
-        className="vehicleTableCell"
-        onClick={[Function]}
+        className="vehicleHeaderCell"
       >
         status
       </p>
       <p
-        className="vehicleTableCell"
-        onClick={[Function]}
+        className="vehicleHeaderCell"
       >
         fuelType
       </p>
       <p
-        className="vehicleTableCell"
-        onClick={[Function]}
+        className="vehicleHeaderCell"
       >
         equipments
       </p>

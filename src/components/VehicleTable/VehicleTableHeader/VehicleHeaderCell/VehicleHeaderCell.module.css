@@ -1,0 +1,6 @@
+.vehicleHeaderCell {
+  flex: 1 1 calc(100% / 6);
+  margin: 0 var(--spacing-extra-small);
+  text-align: left;
+  user-select: none;
+}
