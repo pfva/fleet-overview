@@ -3,3 +3,9 @@
   padding: var(--spacing-normal);
   justify-content: space-between;
 }
+
+@media screen and (max-width: 425px) {
+  .vehicleTableHeader {
+    display: none;
+  }
+}

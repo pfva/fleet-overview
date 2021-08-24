@@ -67,6 +67,7 @@ const VehicleTableCell = ({ content: { type, data, vehicleId } }) => {
       document.removeEventListener('keydown', handleEnterKeypress);
       document.removeEventListener('keydown', handleEscKeypress);
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [updatedData]);
 
   // Special interactivity for equipments

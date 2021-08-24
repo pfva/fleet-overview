@@ -35,7 +35,7 @@
 
 @media screen and (min-width: 1080px) {
   .input {
-    width: calc(100vw/6);
+    width: calc(100vw / 6);
   }
 }
 
@@ -51,4 +51,22 @@
 .adjustHovered:hover {
   margin: -4px;
   right: 0;
+}
+
+@media screen and (max-width: 425px) {
+  .vehicleTableCell {
+    flex-basis: calc(100% / 3);
+    line-height: var(--font-size-base);
+  }
+
+  .vehicleEquipments {
+    flex-basis: calc(100% / 3);
+    line-height: var(--font-size-base);
+  }
+
+  .input {
+    max-width: calc(100% / 2);
+    flex-basis: calc(100% / 2);
+    margin-right: 0;
+  }
 }

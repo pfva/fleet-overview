@@ -7,3 +7,9 @@
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
 }
+
+@media screen and (max-width: 425px) {
+  .vehicleTableRow {
+    flex-wrap: wrap;
+  }
+}
