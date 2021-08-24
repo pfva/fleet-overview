@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import EquipmentsContext from './equipments-context';
-import equipmentsJson from '../data/equipments.json';
+import equipmentsJson from '../../data/equipments.json';
 
 const EquipmentsProvider = props => {
   const [equipmentsState, setEquipmentsState] = useState(equipmentsJson);

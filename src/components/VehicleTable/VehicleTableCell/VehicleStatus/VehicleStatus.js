@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import VehicleContext from '../../../../store/vehicle-context';
+import VehicleContext from '../../../../store/vehicles/vehicle-context';
 import Icon from '../../../UI/Icon/Icon';
 import styles from '../VehicleTableCell.module.css';
 

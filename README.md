@@ -27,3 +27,13 @@ Run `npm start` to start up the application. It will automatically open the deve
 You can use different vehicle data if you have the need for it. Simply replace the JSON file `/src/data/vehicles.json` with a file of your own (make sure the JSON data has a similar structure as the current one). 
 
 If you want to change the list of different available equipments, that is possible too. Simply follow the same process as above, but for `/src/data/equipments.json`.
+
+---
+
+### Testing
+
+There are two available test suites to be run. 
+
+Firstly, there is a set of unit and snapshot tests written in Jest and react-testing-library. Run these with `npm test``
+
+Secondly, there are a couple of Cypress tests which cover more of the interactivity on the page. These can be run with `npm run test:cypress`

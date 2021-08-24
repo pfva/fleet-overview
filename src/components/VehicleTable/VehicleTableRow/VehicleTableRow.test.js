@@ -1,7 +1,7 @@
-import { render, screen } from '../../../test/test-utils';
+import { render, screen } from '../../../utils/test-utils';
 import renderer from 'react-test-renderer';
 import VehicleTableRow from './VehicleTableRow';
-import EquipmentsProvider from '../../../store/EquipmentsProvider';
+import EquipmentsProvider from '../../../store/equipments/EquipmentsProvider';
 
 const mockedVehicle = {
   id: 'v3',

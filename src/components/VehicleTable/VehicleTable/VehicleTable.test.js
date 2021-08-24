@@ -1,7 +1,7 @@
 import renderer from 'react-test-renderer';
 import VehicleTable from './VehicleTable';
-import VehicleProvider from '../../store/VehicleProvider';
-import EquipmentsProvider from '../../store/EquipmentsProvider';
+import VehicleProvider from '../../../store/vehicles/VehicleProvider';
+import EquipmentsProvider from '../../../store/equipments/EquipmentsProvider';
 
 describe('VehicleTable', () => {
   it('renders an array of vehicles', () => {

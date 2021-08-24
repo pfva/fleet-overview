@@ -1,7 +1,7 @@
 import { useContext } from 'react';
-import VehicleContext from '../../store/vehicle-context';
-import VehicleTableHeader from './VehicleTableHeader/VehicleTableHeader';
-import VehicleTableRow from './VehicleTableRow/VehicleTableRow';
+import VehicleContext from '../../../store/vehicles/vehicle-context';
+import VehicleTableHeader from '../VehicleTableHeader/VehicleTableHeader';
+import VehicleTableRow from '../VehicleTableRow/VehicleTableRow';
 import styles from './VehicleTable.module.css';
 
 const VehicleTable = () => {

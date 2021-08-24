@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import VehicleProvider from '../store/VehicleProvider';
-import EquipmentsProvider from '../store/EquipmentsProvider';
+import VehicleProvider from '../store/vehicles/VehicleProvider';
+import EquipmentsProvider from '../store/equipments/EquipmentsProvider';
 
 const ProvidersHOC = ({ children }) => {
   return (

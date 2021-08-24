@@ -1,6 +1,6 @@
 import { useState, useContext, useRef, useEffect } from 'react';
-import EquipmentsContext from '../../../../store/equipments-context';
-import VehicleContext from '../../../../store/vehicle-context';
+import EquipmentsContext from '../../../../store/equipments/equipments-context';
+import VehicleContext from '../../../../store/vehicles/vehicle-context';
 import styles from '../VehicleTableCell.module.css';
 
 const VehicleEquipments = ({ equipments, vehicleId }) => {
