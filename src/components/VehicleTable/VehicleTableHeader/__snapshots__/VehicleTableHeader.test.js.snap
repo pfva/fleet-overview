@@ -4,35 +4,65 @@ exports[`VehicleTableHeader renders without crashing 1`] = `
 <div
   className="vehicleTableHeader"
 >
-  <p
-    className="vehicleHeaderCell"
+  <div
+    className="vehicleHeaderWrapper"
   >
-    ID
-  </p>
-  <p
-    className="vehicleHeaderCell"
+    <p
+      className="vehicleHeaderCell"
+      onClick={[Function]}
+    >
+      ID
+    </p>
+  </div>
+  <div
+    className="vehicleHeaderWrapper"
   >
-    Name
-  </p>
-  <p
-    className="vehicleHeaderCell"
+    <p
+      className="vehicleHeaderCell"
+      onClick={[Function]}
+    >
+      Name
+    </p>
+  </div>
+  <div
+    className="vehicleHeaderWrapper"
   >
-    Driver
-  </p>
-  <p
-    className="vehicleHeaderCell"
+    <p
+      className="vehicleHeaderCell"
+      onClick={[Function]}
+    >
+      Driver
+    </p>
+  </div>
+  <div
+    className="vehicleHeaderWrapper"
   >
-    Status
-  </p>
-  <p
-    className="vehicleHeaderCell"
+    <p
+      className="vehicleHeaderCell"
+      onClick={[Function]}
+    >
+      Status
+    </p>
+  </div>
+  <div
+    className="vehicleHeaderWrapper"
   >
-    Fuel type
-  </p>
-  <p
-    className="vehicleHeaderCell"
+    <p
+      className="vehicleHeaderCell"
+      onClick={[Function]}
+    >
+      Fuel type
+    </p>
+  </div>
+  <div
+    className="vehicleHeaderWrapper"
   >
-    Equipments
-  </p>
+    <p
+      className="vehicleHeaderCell"
+      onClick={[Function]}
+    >
+      Equipments
+    </p>
+  </div>
 </div>
 `;

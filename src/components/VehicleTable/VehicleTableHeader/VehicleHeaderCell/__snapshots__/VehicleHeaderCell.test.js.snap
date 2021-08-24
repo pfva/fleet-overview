@@ -1,7 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`VehicleHeaderCell renders without crashing 1`] = `
-<p
-  className="vehicleHeaderCell"
-/>
+<div
+  className="vehicleHeaderWrapper"
+>
+  <p
+    className="vehicleHeaderCell"
+    onClick={[Function]}
+  />
+</div>
 `;
