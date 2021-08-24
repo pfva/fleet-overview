@@ -123,7 +123,7 @@ exports[`App renders without crashing 1`] = `
           onClick={[Function]}
         >
           <span
-            className="dot"
+            className="dot active"
             data-testid="Icon-active"
           />
           <p>
@@ -209,7 +209,7 @@ exports[`App renders without crashing 1`] = `
           onClick={[Function]}
         >
           <span
-            className="dot"
+            className="dot active"
             data-testid="Icon-active"
           />
           <p>
@@ -290,7 +290,7 @@ exports[`App renders without crashing 1`] = `
           onClick={[Function]}
         >
           <span
-            className="dot"
+            className="dot active"
             data-testid="Icon-active"
           />
           <p>
@@ -365,17 +365,23 @@ exports[`App renders without crashing 1`] = `
             Mr. Krabs
           </span>
         </p>
-        <p
-          className="vehicleTableCell"
+        <div
+          className="vehicleTableCell iconWrapper"
           data-testid="VehicleStatus-off"
           onClick={[Function]}
         >
           <span
-            className="dataText"
-          >
-            inactive
-          </span>
-        </p>
+            className="dot inactive"
+            data-testid="Icon-inactive"
+          />
+          <p>
+            <span
+              className="dataText"
+            >
+              inactive
+            </span>
+          </p>
+        </div>
         <p
           className="vehicleTableCell"
           data-testid="VehicleTableCell-text"
@@ -440,7 +446,7 @@ exports[`App renders without crashing 1`] = `
           onClick={[Function]}
         >
           <span
-            className="dot"
+            className="dot active"
             data-testid="Icon-active"
           />
           <p>
@@ -526,7 +532,7 @@ exports[`App renders without crashing 1`] = `
           onClick={[Function]}
         >
           <span
-            className="dot"
+            className="dot active"
             data-testid="Icon-active"
           />
           <p>
@@ -607,7 +613,7 @@ exports[`App renders without crashing 1`] = `
           onClick={[Function]}
         >
           <span
-            className="dot"
+            className="dot active"
             data-testid="Icon-active"
           />
           <p>
@@ -682,7 +688,7 @@ exports[`App renders without crashing 1`] = `
           onClick={[Function]}
         >
           <span
-            className="dot"
+            className="dot active"
             data-testid="Icon-active"
           />
           <p>
@@ -763,7 +769,7 @@ exports[`App renders without crashing 1`] = `
           onClick={[Function]}
         >
           <span
-            className="dot"
+            className="dot active"
             data-testid="Icon-active"
           />
           <p>
@@ -838,7 +844,7 @@ exports[`App renders without crashing 1`] = `
           onClick={[Function]}
         >
           <span
-            className="dot"
+            className="dot active"
             data-testid="Icon-active"
           />
           <p>
@@ -913,17 +919,23 @@ exports[`App renders without crashing 1`] = `
             Potty the Parrot
           </span>
         </p>
-        <p
-          className="vehicleTableCell"
+        <div
+          className="vehicleTableCell iconWrapper"
           data-testid="VehicleStatus-off"
           onClick={[Function]}
         >
           <span
-            className="dataText"
-          >
-            inactive
-          </span>
-        </p>
+            className="dot inactive"
+            data-testid="Icon-inactive"
+          />
+          <p>
+            <span
+              className="dataText"
+            >
+              inactive
+            </span>
+          </p>
+        </div>
         <p
           className="vehicleTableCell"
           data-testid="VehicleTableCell-text"
@@ -994,7 +1006,7 @@ exports[`App renders without crashing 1`] = `
           onClick={[Function]}
         >
           <span
-            className="dot"
+            className="dot active"
             data-testid="Icon-active"
           />
           <p>
@@ -1069,7 +1081,7 @@ exports[`App renders without crashing 1`] = `
           onClick={[Function]}
         >
           <span
-            className="dot"
+            className="dot active"
             data-testid="Icon-active"
           />
           <p>
@@ -1150,7 +1162,7 @@ exports[`App renders without crashing 1`] = `
           onClick={[Function]}
         >
           <span
-            className="dot"
+            className="dot active"
             data-testid="Icon-active"
           />
           <p>
@@ -1225,7 +1237,7 @@ exports[`App renders without crashing 1`] = `
           onClick={[Function]}
         >
           <span
-            className="dot"
+            className="dot active"
             data-testid="Icon-active"
           />
           <p>

@@ -44,7 +44,7 @@ exports[`VehicleTableRow renders without crashing 1`] = `
     onClick={[Function]}
   >
     <span
-      className="dot"
+      className="dot active"
       data-testid="Icon-active"
     />
     <p>

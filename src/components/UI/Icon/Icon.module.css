@@ -6,8 +6,16 @@
   width: var(--font-size-extra-small);
   margin-right: var(--font-size-small);
   border-radius: 50%;
+}
+
+.active {
   background-color: var(--color-active);
   box-shadow: 0 0 5px var(--color-active);
+}
+
+.inactive {
+  background-color: var(--color-inactive);
+  box-shadow: 0 0 5px var(--color-inactive);
 }
 
 @media screen and (max-width: 425px) {

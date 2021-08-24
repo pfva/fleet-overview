@@ -32,13 +32,16 @@ const VehicleStatus = ({ status, vehicleId }) => {
     );
   } else {
     return (
-      <p
-        className={styles.vehicleTableCell}
+      <div
+        className={`${styles.vehicleTableCell} ${styles.iconWrapper}`}
         onClick={toggleStatus}
         data-testid="VehicleStatus-off"
       >
-        <span className={styles.dataText}>{status}</span>
-      </p>
+        <Icon type="inactive" />
+        <p>
+          <span className={styles.dataText}>{status}</span>
+        </p>
+      </div>
     );
   }
 };
