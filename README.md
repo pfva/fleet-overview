@@ -34,6 +34,6 @@ If you want to change the list of different available equipments, that is possib
 
 There are two available test suites to be run. 
 
-Firstly, there is a set of unit and snapshot tests written in Jest and react-testing-library. Run these with `npm test``
+Firstly, there is a set of unit and snapshot tests written in Jest and react-testing-library. Run these with `npm test`
 
 Secondly, there are a couple of Cypress tests which cover more of the interactivity on the page. These can be run with `npm run test:cypress`
