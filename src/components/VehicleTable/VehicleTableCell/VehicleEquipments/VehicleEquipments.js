@@ -1,6 +1,7 @@
 import { useState, useContext, useRef, useEffect } from 'react';
 import EquipmentsContext from '../../../../store/equipments/equipments-context';
 import VehicleContext from '../../../../store/vehicles/vehicle-context';
+import { useClickOutside } from '../../../../hooks/useClickOutside';
 import styles from '../VehicleTableCell.module.css';
 
 const VehicleEquipments = ({ equipments, vehicleId }) => {
@@ -8,6 +9,9 @@ const VehicleEquipments = ({ equipments, vehicleId }) => {
   const checkboxWrapper = useRef(null);
   const equipmentsContext = useContext(EquipmentsContext);
   const vehicleContext = useContext(VehicleContext);
+
+  // Closes "editing mode" if user clicks anywhere outside the input field
+  useClickOutside(checkboxWrapper, setIsEditing);
 
   const toggleEditHandler = () => {
     setIsEditing(!isEditing);
@@ -47,23 +51,6 @@ const VehicleEquipments = ({ equipments, vehicleId }) => {
     );
     vehicleEquipments.push(name);
   });
-
-  // Closes "editing mode" if user clicks anywhere outside the input field
-  useEffect(() => {
-    const handleClickOutsideInput = event => {
-      if (
-        checkboxWrapper.current &&
-        !checkboxWrapper.current.contains(event.target)
-      ) {
-        setIsEditing(false);
-      }
-    };
-
-    document.addEventListener('mousedown', handleClickOutsideInput);
-    return () => {
-      document.removeEventListener('mousedown', handleClickOutsideInput);
-    };
-  }, [checkboxWrapper]);
 
   useEffect(() => {
     const handleEnterKeypress = e => {
