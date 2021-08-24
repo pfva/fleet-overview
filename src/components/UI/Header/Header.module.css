@@ -1,7 +1,7 @@
 .header {
   display: flex;
-  margin: var(--spacing-normal);
-  padding: var(--spacing-extra-large) 0;
+  padding: calc(var(--spacing-extra-large) + var(--spacing-normal)) var(--spacing-normal);
+  background: linear-gradient(var(--color-white), 99%, var(--color-grey-one));
 }
 
 .textWrapper {
