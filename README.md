@@ -10,7 +10,7 @@ This is a web application for fleet owners for viewing and updating your vehicle
 
 If you're getting this from GitHub, you should clone this repo locally to your own computer. If you're getting this in a .zip file instead, skip to step 2.
 
-Run `git clone https://github.com/pfva/fleet-owerview.git`
+Run `git clone https://github.com/pfva/fleet-overview.git`
 
 ### 2. Install the project dependencies
 
